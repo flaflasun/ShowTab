@@ -3,27 +3,36 @@
   padding: 0;
 }
 
-body{
+li {
+  list-style: none;
+}
+
+body {
   width: 800px;
 }
 
-.tab-bar{
+.tab-bar {
   width: 790px;
   padding: 5px 5px;
   border-bottom: 1px solid #cccccc;
 }
 
-.favicon{
-  vertical-align: left;
+.favicon {
   margin: 0 5px 0 0;
+  vertical-align: middle;
+  float: left;
 }
 
-.tab-title{
-  vertical-align: middle;
+.tab-title {
   font-size: 16px;
+  vertical-align: middle;
+  float: left;
 }
 
-.tab-url{
-  vertical-align: middle;
+.tab-url {
   font-size: 15px;
+}
+
+.clear {
+  clear: both;
 }

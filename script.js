@@ -8,6 +8,7 @@ window.onload = function() {
       elements += '<img src="' + tabs[i].favIconUrl + '" width="16" class="favicon" />';
       elements += '<span class="tab-title">' + tabs[i].title + '</span>';
       elements += '<br>';
+      elements += '<div class="clear"></div>';
       elements += '<span class="tab-url">' + tabs[i].url + '</span>';
       elements += '</li>';
     }
