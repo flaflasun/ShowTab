@@ -13,13 +13,13 @@ body {
 
 .tab-bar {
   width: 790px;
-  padding: 5px 5px;
+  padding: 5px;
   border-bottom: 1px solid #cccccc;
   overflow: hidden;
 }
 
 .favicon {
-  margin: 0 5px 0 0;
+  margin: 3px 5px 0 0;
   vertical-align: middle;
   float: left;
 }
@@ -32,6 +32,7 @@ body {
 
 .tab-url {
   font-size: 15px;
+  color: #224488;
 }
 
 .clear {
