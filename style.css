@@ -18,6 +18,10 @@ body {
   overflow: hidden;
 }
 
+.tab-bar:last-child {
+  border-bottom: none;
+}
+
 .favicon {
   margin: 3px 5px 0 0;
   vertical-align: middle;
